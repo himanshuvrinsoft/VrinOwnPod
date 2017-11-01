@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "UITextField/UITextField+TextFieldCategory.h"
+  s.source_files  = "VrinOwnPod/UITextField+TextFieldCategory.h"
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
