@@ -25,6 +25,12 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+
+       it is simple library to make your own pod or private pod for creating textfield category .
+       you can intall using pod which is
+
+       pod 'VrinOwnPod', :path => '/Users/krishna/Desktop/VrinOwnPod'
+
                    DESC
 
   s.homepage     = "https://github.com/himanshuvrinsoft/VrinOwnPod"
